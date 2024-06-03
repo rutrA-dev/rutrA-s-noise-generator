@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rutrA's noise generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="x-icon" href="noiseGenerator.png">
+</head>
+<body>
+    
+    <input class="sstyle" title="px size" placeholder="16" type="text" id="pxSize">
+    <button class="sstyle" title="apply" id="butt">Apply</button>
+    <input type="checkbox" id="check" value="b&w" class="checkbox">b&w<br>
+    <p id="avgColor" class="txt">average color</p>
+    <canvas class="noise" id="maincanvas"></canvas>
+    <canvas title="average color" class="avgCol" id="avgcolor"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
